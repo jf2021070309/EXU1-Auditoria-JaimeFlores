@@ -48,13 +48,6 @@ El FRONT estará disponible en: http://localhost:5173
 
 ### 3. Configuración del Backend
 
-#### Para usuarios macOS
-```bash
-brew install ollama
-ollama pull llama2:7b
-ollama run llama2:7b
-```
-
 #### Para usuarios Windows
 
 1. Descargar el instalador desde ollama.com (https://ollama.com)  
