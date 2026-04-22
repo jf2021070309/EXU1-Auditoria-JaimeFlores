@@ -60,8 +60,8 @@ Instalacion de Ollama
 
 *Captura: fragmento de `app.py` con `obtener_riesgos` y `obtener_tratamiento` mostrando prompts y manejo de fallback.*
 
-![Network — petición /analizar-riesgos](evidencia/ia_network.png)
-
+![alt text](image-20.png)
+![alt text](image-21.png)
 *Captura: DevTools → Network o salida de `curl`/PowerShell mostrando la petición POST a `/analizar-riesgos` y la respuesta JSON (valores sensibles redactados)*
 
 ![alt text](image-9.png)
@@ -72,7 +72,7 @@ Instalacion de Ollama
 
 *Captura: terminal mostrando Flask y/o Ollama en ejecución.*
 
-Descripción: (Breve explicación de la sección de código mejorado que hace posible el funcionamiento de la IA en el sistema). El backend en `app.py` utiliza Ollama vía cliente local. Se añadió manejo de errores y fallback estático cuando el modelo local no responde. Las funciones principales son `obtener_riesgos(activo)` y `obtener_tratamiento(riesgo)`.
+Descripción: El backend en `app.py` utiliza Ollama vía cliente local. Se añadió manejo de errores y fallback estático cuando el modelo local no responde. Las funciones principales son `obtener_riesgos(activo)` y `obtener_tratamiento(riesgo)`.
 
 2. Hallazgos
 
