@@ -137,15 +137,3 @@ Evidencia:
 **Tratamiento:** Implementación de firewall de nueva generación
 
 ---
-
-Instrucciones para exportar este README a PDF:
-
-- En Windows: abrir el README en su navegador o en VSCode y usar "Print" → "Guardar como PDF".
-- Alternativamente usar `pandoc` o `wkhtmltopdf` para generar PDF desde Markdown.
-
-Comandos rápidos:
-```bash
-pandoc README.md -o Informe_Auditoria.pdf --from markdown --pdf-engine=wkhtmltopdf
-```
-
-Subir `Informe_Auditoria.pdf` al aula virtual junto con la URL del repositorio GitHub.
