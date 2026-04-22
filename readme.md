@@ -11,7 +11,7 @@ Jaime Elias Flores Quispe
 
 
 **URL GitHub:** <br>
-[Enlace al Repositorio](https://github.com/jf2021070309/EXU1-Auditoria-JaimeFlores.git)
+[Enlace al Repositorio:](https://github.com/jf2021070309/EXU1-Auditoria-JaimeFlores.git) https://github.com/jf2021070309/EXU1-Auditoria-JaimeFlores.git
 
 
 ---
@@ -82,6 +82,7 @@ Evidencia:
 ![alt text](image-11.png)
 
 *Captura: panel de administración / configuración de accesos y backups. *
+
 **Riesgo:** Pérdida de Base de Datos Clientes
 
 **Impacto:** Pérdida de información valiosa relacionada con Base de Datos Clientes
@@ -94,6 +95,7 @@ Evidencia:
 ![image-12.png](image-12.png)
 
 *Captura: petición en DevTools / logs mostrando headers y payload. *
+
 **Riesgo:** Pérdida de API Transacciones
 
 **Impacto:** Pérdida de información valiosa relacionada con API Transacciones
@@ -106,6 +108,7 @@ Evidencia:
 ![alt text](image-16.png)
 
 *Captura: flujo de autenticación y cookies/CSP en DevTools. *
+
 **Riesgo:** Pérdida de Aplicación Web de Banca
 
 **Impacto:** Pérdida de información valiosa relacionada con Aplicación Web de Banca
@@ -118,6 +121,7 @@ Evidencia:
 ![alt text](image-17.png)
 
 *Captura: ubicación y estado de cifrado de backups; script/configuración si aplica.*
+
 **Riesgo:** Pérdida de Backup en NAS
 
 **Impacto:** Pérdida de información valiosa relacionada con Backup en NAS
@@ -130,6 +134,7 @@ Evidencia:
 ![alt text](image-19.png)
 
 *Captura: reglas o logs de firewall mostrando reglas permisivas o eventos recientes.*
+
 **Riesgo:** Pérdida de Firewall Perimetral
 
 **Impacto:** Pérdida de información valiosa relacionada con Firewall Perimetral

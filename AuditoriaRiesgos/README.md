@@ -114,14 +114,3 @@ taskkill /F /IM python.exe
 taskkill /F /IM ollama.exe
 ```
 
-
-## Informe de Auditoría de Sistemas - Examen de la Unidad I
-
-Nombres y apellidos: Mirian Cuadros Garcias
-
-Fecha: 10/09/2025
-
-URL GitHub: https://github.com/CMirianG/EUI_AuditoriaRiesgos-Cuadros.git
-
----
-
