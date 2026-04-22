@@ -1,10 +1,23 @@
-# Informe de Auditoría de Sistemas - Examen de la Unidad I
+# Informe de Auditoría de Sistemas
+### Examen de la Unidad I
 
-**Nombres y apellidos:** Jaime Elias Flores Quispe
-**Fecha:** 22 de abril de 2026
-**URL GitHub:** https://github.com/jf2021070309/EXU1-Auditoria-JaimeFlores.git
 
-1. Proyecto de Auditoría de Riesgos
+**Nombres y apellidos:** <br>
+Jaime Elias Flores Quispe
+
+
+**Fecha:** <br>
+22 de abril de 2026
+
+
+**URL GitHub:** <br>
+[Enlace al Repositorio](https://github.com/jf2021070309/EXU1-Auditoria-JaimeFlores.git)
+
+
+---
+
+
+## 1. Proyecto de Auditoría de Riesgos
 
 **Login**
 
@@ -66,51 +79,61 @@ Descripción: (Breve explicación de la sección de código mejorado que hace po
 Activo 1: Base de Datos Clientes
 Evidencia:
 
-![Activo1 — BD clientes](evidencia/activo1_bd_clientes.png)
+![alt text](image-11.png)
 
 *Captura: panel de administración / configuración de accesos y backups. Archivo: `evidencia/activo1_bd_clientes.png`.*
 **Riesgo:** Pérdida de Base de Datos Clientes
+
 **Impacto:** Pérdida de información valiosa relacionada con Base de Datos Clientes
+
 **Tratamiento:** Capacitación de personal sobre seguridad
 
 Activo 2: API Transacciones
 Evidencia:
 
-![Activo2 — API transacciones](evidencia/activo2_api_transacciones.png)
+![image-12.png](image-12.png)
 
 *Captura: petición en DevTools / logs mostrando headers y payload. Archivo: `evidencia/activo2_api_transacciones.png`.*
 **Riesgo:** Pérdida de API Transacciones
+
 **Impacto:** Pérdida de información valiosa relacionada con API Transacciones
+
 **Tratamiento:** Cifrado de datos sensibles
 
 Activo 3: Aplicación Web de Banca
 Evidencia:
 
-![Activo3 — App Web](evidencia/activo3_app_web.png)
+![alt text](image-16.png)
 
 *Captura: flujo de autenticación y cookies/CSP en DevTools. Archivo: `evidencia/activo3_app_web.png`.*
 **Riesgo:** Pérdida de Aplicación Web de Banca
+
 **Impacto:** Pérdida de información valiosa relacionada con Aplicación Web de Banca
+
 **Tratamiento:** Implementación de controles de acceso físico
 
 Activo 4: Backup en NAS
 Evidencia:
 
-![Activo4 — Backup NAS](evidencia/activo4_backup_nas.png)
+![alt text](image-17.png)
 
-*Captura: ubicación y estado de cifrado de backups; script/configuración si aplica. Archivo: `evidencia/activo4_backup_nas.png`.*
+*Captura: ubicación y estado de cifrado de backups; script/configuración si aplica.*
 **Riesgo:** Pérdida de Backup en NAS
+
 **Impacto:** Pérdida de información valiosa relacionada con Backup en NAS
+
 **Tratamiento:** Desarrollo de políticas de seguridad
 
 Activo 5: Firewall Perimetral
 Evidencia:
 
-![Activo5 — Firewall](evidencia/activo5_firewall.png)
+![alt text](image-19.png)
 
-*Captura: reglas o logs de firewall mostrando reglas permisivas o eventos recientes. Archivo: `evidencia/activo5_firewall.png`.*
+*Captura: reglas o logs de firewall mostrando reglas permisivas o eventos recientes.*
 **Riesgo:** Pérdida de Firewall Perimetral
+
 **Impacto:** Pérdida de información valiosa relacionada con Firewall Perimetral
+
 **Tratamiento:** Implementación de firewall de nueva generación
 
 ---
@@ -122,7 +145,6 @@ Instrucciones para exportar este README a PDF:
 
 Comandos rápidos:
 ```bash
-# Con pandoc (requiere instalación)
 pandoc README.md -o Informe_Auditoria.pdf --from markdown --pdf-engine=wkhtmltopdf
 ```
 
