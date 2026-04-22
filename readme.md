@@ -81,7 +81,7 @@ Evidencia:
 
 ![alt text](image-11.png)
 
-*Captura: panel de administración / configuración de accesos y backups. Archivo: `evidencia/activo1_bd_clientes.png`.*
+*Captura: panel de administración / configuración de accesos y backups. *
 **Riesgo:** Pérdida de Base de Datos Clientes
 
 **Impacto:** Pérdida de información valiosa relacionada con Base de Datos Clientes
@@ -93,7 +93,7 @@ Evidencia:
 
 ![image-12.png](image-12.png)
 
-*Captura: petición en DevTools / logs mostrando headers y payload. Archivo: `evidencia/activo2_api_transacciones.png`.*
+*Captura: petición en DevTools / logs mostrando headers y payload. *
 **Riesgo:** Pérdida de API Transacciones
 
 **Impacto:** Pérdida de información valiosa relacionada con API Transacciones
@@ -105,7 +105,7 @@ Evidencia:
 
 ![alt text](image-16.png)
 
-*Captura: flujo de autenticación y cookies/CSP en DevTools. Archivo: `evidencia/activo3_app_web.png`.*
+*Captura: flujo de autenticación y cookies/CSP en DevTools. *
 **Riesgo:** Pérdida de Aplicación Web de Banca
 
 **Impacto:** Pérdida de información valiosa relacionada con Aplicación Web de Banca
